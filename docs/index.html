@@ -285,12 +285,19 @@
         * {
             box-sizing: border-box;
         }
+        
+        .result {
+            text-align: center;
+        }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(window).ready(function() {
             $('.button').click(function() {
-                $(location).attr('href', 'https://hieplee2997.github.io/messages');
+                if ($('#login').val() == "02-09-1997")
+                    $(location).attr('href', 'https://hieplee2997.github.io/messages');
+                else
+                    $('.result').html("Sai rồi nhé, hừm");
             });
         });
     </script>
@@ -308,11 +315,12 @@
 
 
             <!-- Login Form -->
-            <form>
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="Ngày sinh của anh là: ../../....">
 
-            </form>
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Ngày sinh của anh là: xx-yy-zzzz">
+
+
             <input type="submit" class="fadeIn fourth button" value="Log In">
+            <div class="result"></div>
 
         </div>
     </div>
