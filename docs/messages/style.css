@@ -36,19 +36,24 @@ h2 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  top: 50%;
+  top: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
 
 .title {
+  margin: 10px;
   width: 430px;
   border: #151518 solid 1px;
   border-radius: 2px;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 600;
+}
+
+.date-time{
+  font-style:italic;
 }
 
 .player ul {

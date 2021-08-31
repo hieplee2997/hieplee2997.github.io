@@ -36,7 +36,7 @@ h2 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  top: 20%;
+  top: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
