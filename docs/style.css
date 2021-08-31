@@ -36,14 +36,14 @@ h2 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  top: 20px;
+  top: 120px;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
 
 .title {
-  margin: 10px;
+  margin-top: 10px;
   width: 430px;
   border: #151518 solid 1px;
   border-radius: 2px;
